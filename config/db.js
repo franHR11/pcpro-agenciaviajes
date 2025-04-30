@@ -1,7 +1,7 @@
 import Sequelize from 'sequelize';
 
-const db = new Sequelize('agenciaviajes','franhr','franhr',{
-    host: '127.0.0.1',
+const db = new Sequelize('franhr_viajes','franhr','Tiacarmen11',{
+    host: 'mysql-franhr.alwaysdata.net',
     port: '3306',
     dialect: 'mysql',
     define: {

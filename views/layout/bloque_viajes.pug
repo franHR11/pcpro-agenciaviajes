@@ -3,7 +3,7 @@
     each viaje in viajes
         .col-md-6.col-lg-4.mb-4
             .card
-                img.card-img-top(src=`img/destinos_${viaje.imagen}.jpg`, alt=viaje.imagen)
+                img.card-img-top(src=`/img/${viaje.imagen}`, alt=viaje.titulo)
                 .card-body
                     h2= viaje.titulo
                     p
